@@ -100,6 +100,7 @@ Generated during build and stored in:
 lsblk  
 getenforce
 sudo systemctl status auditd
+
 grep -E "cramfs|squashfs" /opt/cis-artifacts/modprobe_output.txt  
 tail -20 /opt/cis-artifacts/playbook_output.txt  
 
@@ -123,6 +124,7 @@ tail -20 /opt/cis-artifacts/playbook_output.txt
 ---
 
 ## Author
-Rodzon V. Limjap /
+
+Rodzon V. Limjap
 Senior DevOps / Cloud Engineer  
 AWS | Terraform | Security | Automation  
