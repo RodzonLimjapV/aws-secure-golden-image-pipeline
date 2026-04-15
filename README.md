@@ -58,7 +58,7 @@ terraform validate
 terraform plan -var="key_name=<your-keypair-name>"  
 terraform apply -var="key_name=<your-keypair-name>"  
 
-![alt text](image-2.png)
+![Newly provisioned EC2](images/image-2.jpg)
 
 ---
 
@@ -110,7 +110,7 @@ tail -20 /opt/cis-artifacts/playbook_output.txt
 
 ## Screenshots
 
-![alt text](image-1.png)
+![Validation](images/image-1.jpg)
 
 ---
 
