@@ -58,7 +58,13 @@ terraform validate
 terraform plan -var="key_name=<your-keypair-name>"  
 terraform apply -var="key_name=<your-keypair-name>"  
 
-![Newly provisioned EC2](images/image-2.jpg)
+![AMI-CIS-IMAGE](images/image-2.jpg)
+
+![Newly provisioned EC2](images/image-4.jpg)
+
+Should see :
+- CIS-harden-image → QST-CIS-Harden
+- Provision through terraform → Running new ec2
 
 ---
 
