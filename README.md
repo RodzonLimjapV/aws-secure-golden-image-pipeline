@@ -16,7 +16,7 @@ High-level flow:
 
 Packer → Hardened AMI → Terraform → EC2 → Validation → Artifacts
 
-(image-3.png)
+![alt text](image-3.png)
 
 ---
 
