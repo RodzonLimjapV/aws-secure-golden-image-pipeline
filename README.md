@@ -16,6 +16,8 @@ High-level flow:
 
 Packer → Hardened AMI → Terraform → EC2 → Validation → Artifacts
 
+![alt text](image-3.png)
+
 ---
 
 ## Key Features
@@ -55,6 +57,8 @@ terraform init
 terraform validate  
 terraform plan -var="key_name=<your-keypair-name>"  
 terraform apply -var="key_name=<your-keypair-name>"  
+
+![alt text](image-2.png)
 
 ---
 
@@ -103,6 +107,10 @@ sudo systemctl status auditd
 
 grep -E "cramfs|squashfs" /opt/cis-artifacts/modprobe_output.txt  
 tail -20 /opt/cis-artifacts/playbook_output.txt  
+
+## Screenshots
+
+![alt text](image-1.png)
 
 ---
 
